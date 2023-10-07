@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Iranian Sans";
+  src: local("Iranian Sans"),
+    url("/src/assets/Fonts/Iranian Sans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sahel";
+  src: local("Sahel"), url("/src/assets/Fonts/Sahel.ttf") format("truetype");
+}
+
+* {
+  font-family: Sahel, Iranian Sans;
+  direction: rtl;
+}

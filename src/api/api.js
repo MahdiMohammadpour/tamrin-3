@@ -1,0 +1,1 @@
+export const ApiFiles = "https://file.siraf.app/api/file/files/?web=true&cityIds[]="
