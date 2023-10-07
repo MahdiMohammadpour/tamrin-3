@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Iranian Sans";
-  src: local("Iranian Sans"),
-    url("/src/assets/Fonts/Iranian Sans.ttf") format("truetype");
+  font-family: "IranYekanBakh";
+  src: local("IranYekanBakh"),
+    url("/src/assets/Fonts/Yekan Bakh Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -14,6 +14,6 @@
 }
 
 * {
-  font-family: Sahel, Iranian Sans;
+  font-family: IranYekanBakh,Sahel;
   direction: rtl;
 }
