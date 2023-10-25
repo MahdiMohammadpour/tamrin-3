@@ -6,7 +6,7 @@ import Samandehi from "../../assets/images/samandehi.png";
 
 const Footer = () => {
   return (
-    <div className="flex justify-center bg-gray-100 h-[300px] fixed w-full -bottom-0 border-t-[1px]">
+    <div className="flex justify-center bg-gray-100 h-[300px] w-full border-t-[1px] mt-7 ">
       <div className="flex flex-col items-center w-[45%]">
         <div className="flex flex-col items-center mt-4 w-full">
           <p className="text-gray-800 text-[30px]">دانلود اپلیکیشن سیراف</p>

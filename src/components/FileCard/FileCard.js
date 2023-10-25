@@ -3,23 +3,21 @@ import { FiCameraOff } from "react-icons/fi";
 const FileCard = ({ file }) => {
   console.log(file);
   return (
-    <div className="flex items-center w-auto h-[144px] border-[0.8px] border-gray-300 rounded">
+    <div className="flex items-center w-auto h-[136px] border-[0.8px] border-gray-300 rounded px-3 hover:bg-gray-100">
       <div className="">
         {file.images ? (
           <img
-            className="w-[110px] h-[110px] rounded shadow mr-4 object-cover"
+            className="w-[110px] h-[110px] rounded shadow object-cover"
             src={file.images[0].path}
           />
         ) : (
-          <div className="flex justify-center items-center w-[110px] h-[110px] rounded shadow mr-4 bg-slate-200">
+          <div className="flex justify-center items-center w-[110px] h-[110px] rounded bg-slate-100">
             <FiCameraOff className="text-[25px] text-gray-700" />
           </div>
         )}
       </div>
       <div className="flex flex-col  mr-4 ">
-        <p className="my-3 text-base font-bold break-words w-full">
-          {file.name}
-        </p>
+        <p className="my-3 font-bold w-full">{file.name}</p>
         <div className="flex items-center mb-3">
           <p className="whitespace-nowrap text-xs font-bold">
             {file.category.fullCategory}

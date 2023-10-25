@@ -1,5 +1,4 @@
 import logo from "../../../assets/images/logo.webp";
-
 const navList = [
   { label: "ثبت دفتر املاک", ref: "" },
   { label: "محاسبه کمیسیون", ref: "" },
@@ -7,7 +6,6 @@ const navList = [
   { label: "بلاگ سیراف", ref: "" },
   { label: "درباره سیراف و قوانین استفاده", ref: "" },
   { label: "پشتیبانی", ref: "" },
-  { label: "دفاتر املاک", ref: "" },
 ];
 
 const Navigations = () => {
@@ -20,7 +18,7 @@ const Navigations = () => {
       <span className="block bg-gray-200 h-6 w-[1px] mx-2 hidden lg:block"></span>
       <div className="flex items-center">
         {navList.map((nav, index) => {
-          return <p className="ml-4 font-bold hover:text-gray-600 cursor-pointer">{nav.label}</p>;
+          return <p className="ml-4 font-bold hover:text-gray-500 cursor-pointer" key={index}>{nav.label}</p>;
         })}
       </div>
     </div>
